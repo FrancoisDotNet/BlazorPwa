@@ -1,3 +1,16 @@
 {
+  "name": "Blazor Progressive Web App",
+  "short_name": "BlazorPwa",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512"
+    }
+  ],
+  "display": "standalone",
   "start_url": "./"
 }

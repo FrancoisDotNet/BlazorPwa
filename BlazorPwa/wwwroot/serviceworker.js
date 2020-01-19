@@ -2,7 +2,10 @@ var cacheName = 'blazor-pwa';
 var filesToCache = [
     //wwwroot
     './.nojekyll',
+    './icon-192.png',
+    './icon-512.png',
     './index.html',
+    './manifest.json',
     './serviceworker.js',
     //_framework
     './_framework/blazor.boot.json',
