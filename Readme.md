@@ -1,4 +1,4 @@
-# Blazor WebAssembly
+# Blazor Progressive Web App
 
 ## Prerequisites
 1. [.NET Core SDK](https://dotnet.microsoft.com/download)
