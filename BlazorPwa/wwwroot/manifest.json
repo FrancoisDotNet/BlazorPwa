@@ -3,7 +3,7 @@
   "short_name": "BlazorPwa",
   "icons": [
     {
-      "src": "icon-192.html",
+      "src": "icon-192.h",
       "sizes": "192x192"
     },
     {
