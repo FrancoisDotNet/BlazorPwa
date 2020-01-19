@@ -3,7 +3,7 @@
 ## Prerequisites
 1. [.NET Core SDK](https://dotnet.microsoft.com/download)
 2. [VS Code IDE](https://code.visualstudio.com/download)
-3. [Git SCM](https://git-scm.com/downloads)
+3. [Lighthouse PWA Tool Chromium Extension](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk)
 
 ## Structure
 - `BlazorWasm` repository directory : [*`License.txt`*](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/licensing-a-repository) and [*`Readme.md`*](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes)
