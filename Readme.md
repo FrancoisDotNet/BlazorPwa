@@ -9,3 +9,6 @@
 
 - `BlazorWasm` project directory :
   - `wwwroot` Web static files subdirectory : *`manifest.json`* and *`serviceworker.js`*
+
+## Next
+[Create a Blazor PWA with Bootstrap UX](https://github.com/FrancoisDotNet/BlazorBootstrapPwa)
