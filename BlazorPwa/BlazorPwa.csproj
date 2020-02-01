@@ -9,4 +9,13 @@
     <PackageReference Include="Microsoft.AspNetCore.Blazor.HttpClient" Version="3.1.0-preview4.19579.2" />
     <PackageReference Include="Microsoft.AspNetCore.Blazor.DevServer" Version="3.1.0-preview4.19579.2" PrivateAssets="all" />
   </ItemGroup>
+  <Target Name="GithubPublish" AfterTargets="AfterPublish">
+    <ItemGroup>
+      <DistDir Include="$(PublishDir)$(BlazorPublishDistDir)**\*"/>
+    </ItemGroup>
+    <Copy SourceFiles="@(DistDir)" DestinationFolder="..\docs\%(RecursiveDir)" SkipUnchangedFiles="true"/>
+    <Exec Command="git add -A
+      git commit -a
+      git push origin"/>
+  </Target>
 </Project>
