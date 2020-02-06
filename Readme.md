@@ -8,7 +8,7 @@
 ## Structure
 
 - `BlazorWasm` project directory :
-  - `wwwroot` Web static files subdirectory : *`manifest.json`* and *`serviceworker.js`*
+  - `wwwroot` Web static files subdirectory : [*`manifest.json`*](https://developers.google.com/web/fundamentals/web-app-manifest) and [*`serviceworker.js`*](https://developers.google.com/web/fundamentals/primers/service-workers)
 
 ## Next
 
