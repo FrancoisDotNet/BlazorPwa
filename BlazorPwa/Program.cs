@@ -1,15 +1,15 @@
 ﻿using Microsoft.AspNetCore.Blazor.Hosting;
-using Microsoft.AspNetCore.Components.Builder;
+using System.Threading.Tasks;
 
 namespace BlazorPwa
 {
     class Program
     {
-        static void Main() => BlazorWebAssemblyHost.CreateDefaultBuilder().UseBlazorStartup<Startup>().Build().Run();
-    
-        class Startup
-        {
-            public void Configure(IComponentsApplicationBuilder b) => b.AddComponent<Body>("body");
+        public static async Task Main()
+        {   
+            var builder = WebAssemblyHostBuilder.CreateDefault();
+            builder.RootComponents.Add<Body>("body");
+            await builder.Build().RunAsync();
         }
     }
 }
