@@ -8,7 +8,7 @@
   </ItemGroup>
   <Target Name="GithubPublish" AfterTargets="AfterPublish">
     <ItemGroup>
-      <DistDir Include="$(PublishDir)$(BlazorPublishDistDir)**\*"/>
+      <DistDir Include="$(PublishDir)$(AssemblyName)\dist\**\*"/>
     </ItemGroup>
     <Copy SourceFiles="@(DistDir)" DestinationFolder="..\docs\%(RecursiveDir)" SkipUnchangedFiles="true"/>
     <Exec Command="git add -A
