@@ -11,8 +11,8 @@ var filesToCache = [
     './_framework/blazor.boot.json',
     './_framework/blazor.webassembly.js',
     //_framework/wasm
-    './_framework/wasm/mono.js',
-    './_framework/wasm/mono.wasm',
+    './_framework/wasm/dotnet.js',
+    './_framework/wasm/dotnet.wasm',
     //_framework/_bin
     './_framework/_bin/BlazorPwa.dll',
     './_framework/_bin/Microsoft.AspNetCore.Blazor.dll',
